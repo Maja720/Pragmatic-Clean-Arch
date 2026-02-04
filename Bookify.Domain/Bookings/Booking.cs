@@ -2,7 +2,6 @@
 using Bookify.Domain.Apartments;
 using Bookify.Domain.Bookings.Events;
 using Bookify.Domain.Shared;
-using System.Net.NetworkInformation;
 
 namespace Bookify.Domain.Bookings;
 

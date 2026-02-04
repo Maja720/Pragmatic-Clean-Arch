@@ -25,7 +25,7 @@ public class PricingService
             };
         }
 
-        var amenitiesUpCharge = Money.Zero();
+        var amenitiesUpCharge = Money.Zero(Currency.Usd);
         if(percentageUpCharge > 0)
         {
             amenitiesUpCharge = new Money(
